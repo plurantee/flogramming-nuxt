@@ -49,9 +49,14 @@
     margin-bottom: 20px;
 }
 .white-card {
-    max-width: 50%;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.8);
  }
+
+  @media only screen and (min-width: 768px) {
+      .white-card{
+          max-width: 50%;
+      }
+  }
 </style>
 
 <script>
@@ -77,7 +82,7 @@ export default {
                 { 
                     id: '3', 
                     company: 'Sandstone Technology', 
-                    title: 'Associate Develooer', 
+                    title: 'Associate Developer', 
                     workSummary: 'Oh yea, we were doing some lending app stuff.. using Java. I also used JBoss Seam, Spring, Angular. Also Hibernate, JDBC, SQL, you know database stuff.' ,
                     stay: 'Feb 2019 - Feb 2021'
                 }  

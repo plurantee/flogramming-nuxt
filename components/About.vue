@@ -44,7 +44,7 @@
    @media only screen and (min-width: 768px) {
       .img {
             width: 40%;
-        height: 60%;
+        height: 30vw;
         margin-left: 80px;
       }
       .about-intro{
