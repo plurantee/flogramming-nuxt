@@ -18,22 +18,6 @@
                 </p>
             </div>
         </div>
-        <div v-for="workExperience in workExperiences" v-bind:key="workExperience.id">
-            <div class="work-experience-single">
-                <p class="company-name">
-                    {{workExperience.company}}
-                </p>
-                <p class="company-title">
-                    {{workExperience.title}}
-                </p>
-                <p class="company-stay">
-                    {{workExperience.stay}}
-                </p>
-                <p class="company-work-summary">
-                    {{workExperience.workSummary}}
-                </p>
-            </div>
-        </div>
     </div>  
     
   </section>
