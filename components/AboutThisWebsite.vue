@@ -22,7 +22,7 @@
 }
 #about-this-website {
     margin-top: 50vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 .white-card {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.8);
@@ -42,7 +42,7 @@
   @media only screen and (min-width: 768px) {
       #about-this-website {
     margin-top: 10vh;
-    height: 100vh;
+    min-height: 100vh;
 }
       .white-card{
           max-width: 50%;

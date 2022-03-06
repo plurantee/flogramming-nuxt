@@ -30,7 +30,7 @@ color gray: 9e9e9e
     height: 0;
   }
   .hero {
-    height: 100vh;
+    min-height: 100vh;
     font-size: 45px;
     background-color: #4375ff;
   }
