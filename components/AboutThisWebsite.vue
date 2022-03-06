@@ -4,7 +4,7 @@
     <div class="white-card">
         <div class="margins">
                 <p class="about-this-website-head">About this website</p>
-        <p>This website is created using NuxtJS and Deployed in Heroku.. So Far. This is in continuous development and I am planning to integrate a backend for this one.</p>
+        <p>This website is created using NuxtJS and Deployed in Heroku.. So Far. This is in continuous development and I am planning to integrate a backend for this one. I am mainly a backend developer and did not use css framework while creating this.</p>
         <p class="next-paragraph">you can find the source code for this one in GitHub - <a href="https://github.com/plurantee/flogramming-nuxt" target="_blank">flogramming-nuxt</a></p>
     
         </div>
