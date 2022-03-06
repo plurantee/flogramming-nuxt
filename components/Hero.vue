@@ -8,7 +8,7 @@
     </div>
 
     <div class="scroll-down">
-      <div class="scroll-down-button" href="#">Learn more about me  <a href="#about" class="down-arrow">  &#x2193; </a> </div>
+      <div class="scroll-down-button" href="#"><a href="#about"> Learn more about me  <li href="#about" class="down-arrow">  &#x2193; </li></a> </div>
     </div>
   </div>
 </section>
@@ -54,12 +54,14 @@ color gray: 9e9e9e
   .down-arrow {
     display: inline-block;
     font-size: 7vw;
-    text-decoration: none;
     color:#ffffff;
     animation-duration: 4s;
     transition: all 0.25s ease-out;
   }
-
+  a {
+    text-decoration: none;
+    color:#ffffff;
+  }
   .down-arrow:hover:after {
   width: 100%;
   left: 0;

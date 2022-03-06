@@ -1,69 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
-
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4375ff;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.white-card {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .f-center {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+
 .vh-100 {
-  height: 100vh;
+    height: 100vh;
 }
+
 .f-right {
-  align-items:flex-start;
-  justify-content:center;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .s-100-m-50 {
-  width: 100%;
+    width: 100%;
 }
+
 .f-s-center-m-left {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .f-s-center-m-right {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
 /*Disable h1-h3 defaults*/
-h1, h2, h3 {
-  font-size: inherit;
-  display: inline-block;
-  font-weight: inherit;
+
+h1,
+h2,
+h3 {
+    font-size: inherit;
+    display: inline-block;
+    font-weight: inherit;
 }
+
 .next-paragraph {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 @media only screen and (min-width: 768px) {
-  .s-100-m-50 {
-    width: 50%;
-  }
-  .f-s-center-m-left {
-    justify-content:left;
-  }
-  .f-s-center-m-right {
-    justify-content: right;
-  }
-  .f-right {
-    align-items:flex-end;
-    justify-content:end;
-    margin-bottom: 40px;
-  }
+    .s-100-m-50 {
+        width: 50%;
+    }
+    .f-s-center-m-left {
+        justify-content: left;
+    }
+    .f-s-center-m-right {
+        justify-content: right;
+    }
+    .f-right {
+        align-items: flex-end;
+        justify-content: end;
+        margin-bottom: 40px;
+    }
 }
