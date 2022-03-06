@@ -1,14 +1,15 @@
 <template>
   <section id="about" class="">
     <div class="container vh-100">
-      <div class="s-100-m-50 f-s-center-m-left">
+      <div class="s-100-m-50 f-s-center-m-left f-center">
         <img class="img" src="~static/images/DSC_0445.jpg">
       </div>
 
-      <div class="s-100-m-50 f-s-center-m-left f-right">
+      <div class="s-100-m-50 f-s-center-m-left f-center">
         <div class="about-intro ">
-          <p>As a <strong><h2>Software Engineer</h2></strong>, I develop/create <b>Web Applications and Websites.</b></p>
-          <p>  I am a Full Stack Developer (Frontend and Backend Developmen)</p>
+          <p class="">As a <strong><h2>Software Engineer</h2></strong>, I develop/create <b>Web Applications and Websites.</b></p>
+
+          <p class="next-paragraph">  I am a <strong><h2>Full Stack Developer</h2></strong> (Frontend and Backend Development)</p>
         </div>
       </div>
     </div>
@@ -18,14 +19,16 @@
 
 <style scoped>
   .img {
-width: 40%;
+    width: 40%;
+    height: 70%;
     margin: 10px;
     border-radius: 10px;
     margin-top: 4vh;
   }
   .about-intro{
     font-size: 25px;
-    margin: 5px 25px 25px 25px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
   }
   .f-bottom {
     align-content:center;
@@ -33,12 +36,13 @@ width: 40%;
    @media only screen and (min-width: 768px) {
       .img {
             width: 40%;
-    height: 60%;
-        margin-left: 50px;
+        height: 60%;
+        margin-left: 80px;
       }
       .about-intro{
         margin-right: 30px;
         font-size: 45px;
+        text-align: left;
       }
     }
 </style>

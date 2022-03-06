@@ -25,8 +25,8 @@ html {
   height: 100vh;
 }
 .f-right {
-  align-items:flex-end;
-  justify-content:end;
+  align-items:flex-start;
+  justify-content:center;
 }
 
 .s-100-m-50 {
@@ -48,7 +48,9 @@ h1, h2, h3 {
   display: inline-block;
   font-weight: inherit;
 }
-
+.next-paragraph {
+  margin-top: 30px;
+}
 @media only screen and (min-width: 768px) {
   .s-100-m-50 {
     width: 50%;
@@ -58,5 +60,10 @@ h1, h2, h3 {
   }
   .f-s-center-m-right {
     justify-content: right;
+  }
+  .f-right {
+    align-items:flex-end;
+    justify-content:end;
+    margin-bottom: 40px;
   }
 }
