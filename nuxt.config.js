@@ -13,7 +13,8 @@ export default {
             { name: 'keywords', content: 'florante rapio,software engineer,florante rapio jr,filipino software engineer, filipino software developer,software developer,online resume' },
             { name: 'robots', content: 'index, follow' },
             { name: 'language', content: 'English' },
-            { name: 'format-detection', content: 'telephone=no' }
+            { name: 'format-detection', content: 'telephone=no' },
+            { name: 'google-site-verification', content: 'z4W4xO8OlchAHT6XITCCMhc7IJMEZ9iR9A8MyWM1gdc' }
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
