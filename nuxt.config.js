@@ -1,16 +1,15 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'Florante Rapio | Fullstack Software Developer / Software Engineer',
+        title: "'Florante Rapio - Let's Code",
         htmlAttrs: {
             lang: 'en'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'This is a portfolio or resume website of Florante Rapio, containing work experience and projects' },
+            { name: 'description', content: 'Welcome to my Personal Website. I am Florante Rapio and I am a Filipino Full Stack Software Engineer.' },
             { name: 'title', content: 'Florante Rapio | Fullstack Software Developer / Software Engineer' },
-            { name: 'keywords', content: 'florante rapio,software engineer,florante rapio jr,filipino software engineer, filipino software developer,software developer,online resume' },
             { name: 'robots', content: 'index, follow' },
             { name: 'language', content: 'English' },
             { name: 'format-detection', content: 'telephone=no' },

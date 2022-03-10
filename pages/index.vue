@@ -1,9 +1,10 @@
 <template>
-  <div class="">
+  <main>
     <Hero/>
+
     <About/>
     <WorkHistory/>
     <AboutThisWebsite/>
-  </div>
+  </main>
 
 </template>
